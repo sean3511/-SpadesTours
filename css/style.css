@@ -138,8 +138,18 @@
                 to {
                     opacity: 0
                 }
+            }   
+            .page-title{
+                position: absolute;
+                top: 50%;  
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
-
+            .car-colcum{
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
             html[data-page-transition=SlideHorizontal]::view-transition-old(page-group) {
                 animation: slide-horizontal-old .6s cubic-bezier(.83,0,.17,1) forwards;
                 mix-blend-mode: normal
@@ -10034,7 +10044,9 @@
                         margin-left: 0.5859375%;
                     }
                 }
-
+                .color-line{
+                    background-color: #06C755 !important;
+                }
                 #comp-m1qdj3n7 {
                     --brw: 0px;
                     --brd: var(--color_15);
