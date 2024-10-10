@@ -139,10 +139,17 @@
                     opacity: 0
                 }
             }   
+            .header-gp{
+                display: flex;
+
+            }
             .page-title{
-                position: absolute;
+                margin-right: 87px;
+                display: block;
+                text-align: center;
+                /* position: absolute;
                 left: 50%;
-                transform: translateX(-50%);
+                transform: translateX(-50%); */
             }
             .car-colcum{
                 display: flex;
