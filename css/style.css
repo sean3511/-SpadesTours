@@ -141,9 +141,8 @@
             }   
             .page-title{
                 position: absolute;
-                top: 50%;  
                 left: 50%;
-                transform: translate(-50%, -50%);
+                transform: translateX(-50%);
             }
             .car-colcum{
                 display: flex;
@@ -14127,4 +14126,35 @@
                     --stroke-opacity: 1;
                     --fill: #000000;
                 }
-
+                /* @media only screen and (max-width: 768px) {
+                    .header-block{
+                        margin-top: 24px;
+                    }
+                } */
+                .wp-line-button{
+                    display: block;
+                    position: fixed;
+                    text-decoration: none;
+                    z-index: 9999999999;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    /* transform: scale(0.8); */
+                    right: 20px;
+                    bottom: 100px;
+                }
+                .line-logo{
+                    height: 60px;
+                    width: 60px;
+                }
+                .carousel-inner img {
+                    max-height: 100%;
+                    object-fit: contain; /* 保持圖片比例不變，填滿容器 */
+                }
+                .carousel-item{
+                    height: 300px;
+                }
+        
+                .carousel-indicators {
+                    bottom: -44px; /* 讓圓點指示器距離輪播下方 24px */
+                }
